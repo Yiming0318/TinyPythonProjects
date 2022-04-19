@@ -1,0 +1,32 @@
+Example 1:
+Call#        lst               Base Case?                 Returned
+1           [1, 1, 2, 3, 5]         N                 [5] + rev_list([1, 1, 2, 3])
+2           [1, 1, 2, 3]            N                 [3] + rev_list([1, 1, 2]) 
+3           [1, 1, 2]               N                 [2] + rev_list([1, 1])
+4           [1, 1]                  N                 [1] + rev_list([1])
+5           [1]                     Y                 [1]
+
+
+
+Return#             lst(line 5)                      Returned
+1                   [1]                              [1]
+2                   [1, 1]                           [1] + [1] = [1, 1]
+3                   [1, 1, 2]                        [2] + [1, 1] = [2, 1, 1]
+4                   [1, 1, 2, 3]                     [3] + [2, 1, 1] = [3, 2, 1, 1]
+5                   [1, 1, 2, 3, 5]                  [5] + [3, 2, 1, 1] = [5, 3, 2, 1, 1]
+
+
+Example 2:
+Call#          s               Base Case?                 Returned
+1            'abceba'             N                     True and spam('bceb')
+2            'bceb'               N                     True and spam('ce')
+3            'ce'                 N                     False and spam('')
+4            ''                   Y                     True
+
+
+
+Return#             s(line 5)                      Returned(line 5)
+1                   ''                             True
+2                   'ce'                           False and Ture = False
+3                   'bceb'                         True and False = False
+4                   'abceba'                       True and False = False
