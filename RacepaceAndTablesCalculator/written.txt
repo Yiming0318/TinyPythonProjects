@@ -1,0 +1,46 @@
+Yiming Ge
+CS 5001, Fall 2021
+
+Question 1: What is the data type of each of the following values? (0.5pts each)
+A) integer 
+B) integer
+C) string
+D) boolean
+E) float
+F) string
+G) integer
+H) float
+
+
+Question 2: What do the following expressions evaluate to? (0.5pts each)
+A) 1.4
+B) 1.4
+C) 1
+D) 169
+E) 0
+F) 1138purple
+G) 3
+H) yellowyellow
+
+
+Question 3: If you were to enter the following lines into the Python terminal, the third line would result in an error:
+print(“hello”)
+print(“hello”, “world”)
+print(hello)
+Explain the cause of the error. (1pt)
+
+The third line caused a NameError which means a variable is not defined in the local or global scope.
+Here we did not define variable hello so we got this error.
+
+
+Question 4: What does the following code print to the console if the user enters 10? (1pt)
+user_number = int(input(“Enter a whole number greater than 0”))
+x = user_number // 3
+x = x ** 3
+print(x)
+
+First: user_number = 10 
+Second: x = 10 // 3 = 3
+third: x = 3 ** 3 = 27
+Final: print(27)
+Thus, 27 will be printed if the user enters 10

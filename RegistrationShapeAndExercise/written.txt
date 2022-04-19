@@ -1,0 +1,23 @@
+CS5001 FALL
+HW02
+Yiming Ge
+
+Question 1: 
+A)line 1, line 2, line 4, line 5, line 6
+B)line 1, line 2, line 4, line 6
+C)line 1, line 2, line 3, line 6
+D)line 1, line 2, line 4, line 6
+
+Question 2:
+A)World
+B)Hello
+  World
+C)x = 5
+
+Question 3:
+A) True
+B) True
+C) False
+D) True
+E) False
+F) True
